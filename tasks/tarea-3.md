@@ -90,6 +90,12 @@ Luego navega solo con los links para comprobar que todo conecta.
 2. Si cambias el nombre de la funcion, que debe mantenerse para no romper la URL?
 3. Por que separar cada seccion en su propia plantilla mejora el proyecto?
 
+Solución
+1.  Siento que es "`@app.route(...)`", ya que no le veo lógica a que el nombre de la funcion defina
+la URL pública
+2.  Debe mantenerse el nombre de la función las veces que la vayas a usar
+3.  Porque renderiza 3 páginas diferentes que complementan una
+
 ## Entregable
 
 1. `app.py` actualizado con las 3 rutas.

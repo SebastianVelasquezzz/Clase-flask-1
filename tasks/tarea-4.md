@@ -100,6 +100,16 @@ Tambien incluye links de regreso desde `recursos.html` al resto de paginas.
 2. Donde se ejecuta el bucle de Jinja: en el navegador o en Flask?
 3. Que ventaja aporta este patron para casos reales (productos, tareas, alumnos)?
 
+## Solución
+1. Que en este caso por ejemplo, llamamos a python desde el html, haciendo que el código ejecute
+los elementos dentro de la variable recursos, renderizandolos en el frontend
+2. El bucle va en el flask me parece, ya que como las otras páginas que pone en "linea" esta es igual
+3. Poder organizar los elementos que van a ir en el frontend de una manera más ordenada para el 
+programador
+## Explicacion corta del flujo:
+La lista en python se envia al render template que usa flask para antes de mostrarse en el navegador
+usar mediante un bucle la lista hecha previamente.
+
 ## Entregable
 
 1. `app.py` con ruta `/recursos` funcional.
